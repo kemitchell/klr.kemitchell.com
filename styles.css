@@ -3,6 +3,21 @@ body {
   line-height: 1.4;
 }
 
+h2[id],
+h3[id] {
+  padding-right: 10rem;
+  position: relative;
+}
+
+h2[id]:before,
+h3[id]:before {
+  content: '#' attr(id);
+  opacity: 0.5;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
 header, main, footer {
   margin: 0 auto;
   max-width: 40rem;
