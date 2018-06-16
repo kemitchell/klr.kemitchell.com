@@ -3,8 +3,7 @@ body {
   line-height: 1.4;
 }
 
-h2[id],
-h3[id] {
+h2, h3 {
   padding-right: 10rem;
   position: relative;
 }
@@ -16,6 +15,10 @@ h3[id]:before {
   position: absolute;
   right: 0;
   top: 0;
+}
+
+h2 {
+  margin-top: 3rem;
 }
 
 header, main, footer {
