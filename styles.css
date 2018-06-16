@@ -35,3 +35,21 @@ footer {
   margin-bottom: 10rem;
   text-align: right;
 }
+
+.toc {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.toc:before {
+  content: 'Jump To: ';
+}
+
+.toc li {
+  display: inline-block;
+  padding: 1rem 0;
+}
+
+.toc li {
+  margin-left: 1rem;
+}
