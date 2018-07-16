@@ -32,6 +32,10 @@ header, main, footer {
   max-width: 33rem;
 }
 
+img {
+  width: 100%;
+}
+
 footer {
   margin-bottom: 10rem;
   text-align: right;
